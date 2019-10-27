@@ -13,7 +13,7 @@ To setup the USB of your choice when unplugged to safe shutdown your device run 
     sudo python unplug2shutdown.py --configure
 
 It will ask to plug the desired USB device(which can be almost anything even a printer)
-into the USB port. 
+into any available USB port. 
 
 It will ask you to confirm, finish the prompts and done!
 
