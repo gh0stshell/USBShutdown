@@ -19,7 +19,7 @@ It will ask you to confirm, finish the prompts and done!
 
 It will then create a ".usbshutdownrc" in your home directory such as "/home/pi/" or "/root/"
 
-# System Auto Start
+# System Auto Start - shortly will have an option to add this as a service!
 
 Lastly lets make the tool startup with the system so it actually works!
 
