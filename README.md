@@ -41,9 +41,11 @@ This is the easiest part, of course, first remove the following 2 files:
 
 Next to remove the startup line added, either comment out or remove the line added into /etc/rc.local:
 
+    OLD!
     sudo nano /etc/rc.local
-    OLD! /home/dir/unplug2shutdown.py&
+    /home/dir/unplug2shutdown.py&
 
+    NEW!
     update-rc.d -f usbshutdown remove
 
 IT HAS BEEN REMOVED!
