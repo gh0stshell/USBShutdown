@@ -35,12 +35,15 @@ Next, add the below above the last line which is "exit 0"
 
 # Remove USB Shutdown - are you sure?
 
-This is the easiest part, of course, just remove the following 2 files:
+This is the easiest part, of course, first remove the following 2 files:
 
-    sudo rm /home/dir/unplug2shutdown.py .unplug2shutdownrc
+    sudo rm /home/dir/usbshutdown.py .unplug2shutdownrc
 
-Then either comment out or remove the line added into /etc/rc.local:
+Next to remove the startup line added, either comment out or remove the line added into /etc/rc.local:
 
-     /home/dir/unplug2shutdown.py&
+    sudo nano /etc/rc.local
+    OLD! /home/dir/unplug2shutdown.py&
+
+    update-rc.d -f usbshutdown remove
 
 IT HAS BEEN REMOVED!
